@@ -1,53 +1,82 @@
-### 📦 **Course App**
+# 📱 Course App
 
-Super Course App With Beautiful Fiture & UI.
+A modern Flutter application for browsing and accessing educational courses. Built with Material Design 3 and featuring a clean, intuitive user interface.
 
-### 📄 **Page Include**
-- Verify OTP Code Page
-- Home Page
-- Course Detail Page
+## ✨ Features
 
-### 🎖  **Installing**
-```
-dependencies:
-  flutter:
-    sdk: flutter
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
-  google_fonts: ^3.0.1
-```
+- 🔐 Secure Email Verification (OTP)
+- 🎨 Modern Material Design 3 UI
+- 🔍 Course Search Functionality
+- 📚 Course Listings with Details
+- 👨‍🏫 Instructor Profiles
+- ❤️ Course Favoriting System
 
-### 🚀 **Getting Started**
-1. Clone this project || Download Zip from GitHub
-2. Run `flutter pub get` In Terminal
-3. Run the project In Web or Emulator
+## 🛠️ Technologies Used
 
-### 📷 **Screenshots**
+- Flutter SDK (>=2.18.1 <3.0.0)
+- Google Fonts
+- Material Design 3
+- Cupertino Icons
 
-<img
-    src="/assets/image2.png"
-    alt="Main Screen"
-    title="Main Screen"
-    style="display: inline-block; margin: 0 auto; width: 200; height: 400px">
+## 📦 Dependencies
 
-<img
-    src="/assets/image3.png"
-    alt="Main Screen"
-    title="Main Screen"
-    style="display: inline-block; margin: 0 auto; width: 200; height: 400px">
+- `google_fonts: ^3.0.1`
+- `cupertino_icons: ^1.0.2`
+- `flutter_lints: ^2.0.0`
 
-<img
-    src="/assets/image4.png"
-    alt="Main Screen"
-    title="Main Screen"
-    style="display: inline-block; margin: 0 auto; width: 200; height: 400px">
+## 🚀 Getting Started
 
-<img
-    src="/assets/image5.png"
-    alt="Main Screen"
-    title="Main Screen"
-    style="display: inline-block; margin: 0 auto; width: 200; height: 400px">
+1. **Clone the repository**
+   ```bash
+   git clone [repository-url]
+   ```
+
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the app**
+   ```bash
+   flutter run
+   ```
+
+## 📱 App Structure
+
+- `lib/`
+  - `main.dart` - Application entry point
+  - `utils.dart` - Utility functions and constants
+  - `page/`
+    - `otp_page.dart` - Email verification screen
+    - `main_page.dart` - Course listing screen
+    - `detail_course.dart` - Course detail screen
+
+## 🎨 Features Preview
+
+1. **Email Verification**
+   - Secure 4-digit OTP verification
+   - Resend code functionality
+   - Clean verification UI
+
+2. **Course Listing**
+   - Search functionality
+   - Course categories
+   - Featured courses section
+   - Popular courses section
+
+3. **Course Details**
+   - Course preview image
+   - Instructor information
+   - Course description
+   - Favorite/bookmark functionality
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page].
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE] file for details.
 
     
     
